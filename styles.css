@@ -8,23 +8,26 @@
 body{
     background-color: #e7e7e7;
     padding-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 
 header{
     display: flex;
     align-items: center;
-    margin-bottom: 40px;  
+    margin-bottom: 40px;
 }
 
 header img{
-    height: 36px;
+    height: 60px;
     margin-right: 16px;
 }
 
 header h1{
-    max-width: 960px;
-    width: 100%;
-    margin: 0 auto;
+    font-size: 40px;
+    font-weight: bold;
 }
 
 .container{
@@ -61,7 +64,7 @@ form button{
 }
 
 table{
-    width: 100%;
+    width: 60%;
 }
 
 table th{
